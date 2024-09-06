@@ -67,7 +67,50 @@
 // non empty string is treated as 1 hence its conersion into boolean give true 
 
 
- let score =33
- let string_number=String(score);
- console.log(string_number)
- console.log(typeof string_number)
+//  let score =33
+//  let string_number=String(score);
+//  console.log(string_number)
+//  console.log(typeof string_number)
+
+
+// ****************************OPERATIONS************************************
+
+
+// let value=3
+// let neg_value=-value
+// console.log(neg_value)
+
+//  console.log(2+2)
+//  console.log(2-2)
+//  console.log(2*2)
+//  console.log(2/2)
+//  console.log(2**5)
+//  console.log(2%3)
+
+//  let str1="hello"
+//  let str2=", its me"
+//  let str3= str1+str2
+//  console.log(str3)
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+
+
+ // AVOID SUCH TYPE OF  TRICKY CONVERSION IN JS
+//  console.log(true)// true
+//  console.log(+true)// 1
+//  console.log(+"")// 0
+
+//avoid such kind of declaration in js
+//  let num1, num2,num3;
+//  num1=num2=num3=2*5;
+
+
+//  let game_score=100
+//  game_score++;
+//  console.log(game_score);
+//   let game_score2=100
+//  ++game_score2;
+//  console.log(game_score2)
