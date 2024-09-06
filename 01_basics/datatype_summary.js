@@ -42,20 +42,46 @@
 // const big_number=123345678760n;
 
 //array
- const heros=["shaktiman","nagraj","doga"];
- // object
+//  const heros=["shaktiman","nagraj","doga"];
+//  // object
 
-let my_object={
-    name:"priya",
-    age:22,
+// let my_object={
+//     name:"priya",
+//     age:22,
 
- }
- // function
- // function declaration as variable in the js
-  const my_function=function(){
-    console.log("hello, its me, the tenacious one.")
+//  }
+//  // function
+//  // function declaration as variable in the js
+//   const my_function=function(){
+//     console.log("hello, its me, the tenacious one.")
 
-}
+// }
 
 
 // the datatype of non primitive is usually "object"
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack(primitive), heap(non-primitive)
+
+
+//primitive
+//  let my_you_tube="abcd"
+//  let another_name=my_you_tube
+//  another_name="lets achieve the goal"
+//  console.log(another_name)
+//  console.log(my_you_tube)
+ 
+
+//non-primitive
+//  let user_one={
+//   email:"user@google.com",
+//   upi:"user@ptyes"
+//  }
+
+//  let user_two=user_one
+//  user_two.email="phgsss@google.com"
+//  console.log(user_one)
+//  console.log(user_two)
+
