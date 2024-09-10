@@ -83,4 +83,16 @@ const user=[
 
     // }
     // navbar(company="savya")
-    
+  // in prior time the data comes from the backend in the form of "xml", now to the data comes in the form of "json "  from the backend
+
+
+  //JSON
+  // {
+  //   "name":"priya",
+  //   "course_name":"js",
+  //   "price":"free"
+  // }
+  // what will happen when the APIs calls are done by JSON
+  // how to use "fetch method" in js,use fetch method we call an url to get data
+  // APIs data can be  in the form of object{} and some time array, arrays contains objects
+  //1) {},  2)  [{},{},{}]
