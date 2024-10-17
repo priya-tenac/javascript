@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
 
     <title>DOM LEARNING</title>
+    <!-- DOM=>  documnet object model||object=> head,body etc. -->
+     <!-- on the console=> 1)console.log(window)
+                          2) console.log(window.document
+                           3) console.log(document)
+                           4)console.dir(document) => to show to all (hidden and non hidden)details about the documents
+                          ++++++++++ document object model of a simple webpage +++++++++++++
+                           window=>document=>html=>1)head 2)body and so on for further information like head  has two more children title and meta
+                            here , for every term we use the term node like for text content we use name as textnode
+                            the  content which is written inside the opening tag is known as attributs=> like class ,id are attributes of a tag
+                            5)console.log(document.methods)
+                            html collections,node collections and array are three different things => these three have different properties and methods
+                            6)console.log(document.links[2])=> here link is not an array it is a collections and this will give the second link 
+                            present in the document
+                            7)document.getElementById('id_name') -->
+                            <!-- DOM MANIPULATION 
+                              1)document.getElementById('id_name').innerHTML="<h1>new_name to the content which is inside the h1 which has id_name as mentioned in the heading section</h1>"
+                              eg)document.getElementById('firstHeading').innerHTML="<h1> tenacious</h1>"
+                              -->
     <style>
         .bg-black{
             background-color: #212121;
