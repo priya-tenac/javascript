@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>two project with async js</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    
+</body>
+<script>
+//++++++++++++++++
+// setInterval( function(){
+//     // console.log("hey! I  am the tenacious one.")
+//     console.log("hey! I am the tenacious one.",Date.now())
+    
+// }, 3000);
+//+++++++++++++++++
+
+//  const sayDate=function(){
+//     // console.log("hey! I  am the tenacious one.")
+//     console.log("hey! I am the tenacious one.",Date.now())
+//  }
+// setInterval(sayDate, 3000);
+//+++++++++++++++++++++++
+const sayDate=function(str){
+    // console.log("hey! I  am the tenacious one.")
+    console.log(str,Date.now())
+ }
+ const intervalId=setInterval(sayDate, 3000,"hello");
+clearInterval(intervalId)
+
+</script>
+</html>
