@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>two project with async js</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+//     setTimeout(function (){
+//   console.log("hey! I am the tenacious one.")
+//     },2000)// this is a method but it is also used to call apis
+//+++++++++++++++++++++++++++++++++
+// const greet=function(){
+//     console.log("hey! I am the tenacious one. lets win the world together.")
+// }
+// setTimeout(greet,2000);
+// document.querySelector('h1').innerHTML="hey! you are the owner of your future."
+//+++++++++++++++++++++++++++++++
+const changeText=function(){
+    document.querySelector('h1').innerHTML="hey! never give up"
+}
+const changeme=setTimeout(changeText,2000)
+// clearTimeout(changeme)
+document.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(changeme)
+    console.log("STOPPED")
+})
+</script>
+</html>
