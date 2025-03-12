@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+  <button>button clicked</button>    
+</body>
+<script>
+    class react{
+        constructor(){
+            this.library="react"
+            this.server="https://localhost:3000"
+             // requirement 
+             document
+             .querySelector('button')
+             .addEventListener('click',this.handledClick.bind(this))      
+            
+
+             // addEventListener('click',this.handledClick)  => this will not give the output regarding the "this.server" as it doesn't hold the reference, hecne we have tot use".bind(this)"  the add to the handleclick function
+            
+            }
+       
+    
+        // as  page is loaded , there will be creation of the object of the react
+        handledClick(){
+            console.log("button clicked")
+                console.log(this.server)// this will give that part of the react which id indicated with the help of the server
+                console.log(this)// this will give the access of the  all react attribute present inside the constructor
+            
+        }
+    }
+
+    const app=new react()// creation of the object from the react
+</script>
+</html>
